@@ -4,7 +4,7 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
+//#define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x2260
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    KBDFans
@@ -25,7 +25,7 @@
 
 /* number of backlight levels */
 #define BACKLIGHT_PIN B6
-#define BACKLIGHT_LEVELS 9
+//#define BACKLIGHT_LEVELS 9
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCING_DELAY 5
